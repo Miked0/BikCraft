@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
+/* ============================
+
+COLORS  - FONTS
+
+===================================== */
+root{--c12: #000;
+  --c11: #121212;
+  --c10: #2E2E2E;
+  --c9: #404040;
+  --c8: #595959;
+  --c7: #707070;
+  --c6: #9C9C9C;
+  --c5:  #B3B3B3;
+  --c4:  #CCCCCC;
+  --c3: #DEDEDE;
+  --c2: #EDEDED;
+  --c1: #F7F7F7;
+  --white: #FFFFFF;
+  --a1: #FFBB00;
+  --a2: #E5A40B;
+  --a3: #A66F00;
+  --a4: #664400;
+  --a5: #332200;
+ 
+--poppins:font-family: 'Poppins', sans-serif;
+
+
+  --roboto: font-family: 'Roboto', sans-serif;
+  
+  --font-1-xxl: font-family: 'Poppins', sans-serif,
+   font-size: 24px; 
+
+
+  --font-1-xl: ;
+  --font-1-l: ; 
+  --font-2-l: ;     font-family: 'Roboto', sans-serif;
+  --font-2-l-b: ; 
+  --font-1-m-b: ; 
+  --font-2-m: ; 
+  --font-1-s: ; 
+  --font-2-s: ; 
+  --font-2-xs: ; 
+  --font-1-xs: ; 
+
+
+}
+
+
+/* ============================GLOBALS===================================== */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: var(--c12);
+
+  font-size: var(--font-1-xxl);
+}
+
+
+
+
+
+/* ============================HEADER===================================== */
+
+/* ============================MENU===================================== */
+
+/* ============================FOOTER===================================== */
