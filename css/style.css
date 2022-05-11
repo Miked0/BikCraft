@@ -130,6 +130,38 @@ transition: .3s;
 .menu a:hover::after{
   width: 100%;
 }
+
+/* ============================MEDIA-QUERIES-HEADER===================================== */
+@media(max-width: 800px){
+.menu a{ 
+background-color: #111;
+padding: 0.5rem 1rem;
+border-radius: 0.2rem; 
+transition: 340ms;
+
+}
+.menu {gap: .6rem;}
+
+.menu a:hover{ 
+  background-color: #2E2E2E;
+text-decoration: none;
+
+}
+.header a:after{ display: none;}
+}
+
+@media(max-width: 600px){
+  .menu{ 
+    gap: .4rem; 
+      }
+.menu a { padding: 0.3rem 0.5rem;
+font-size: 0.9rem;}
+
+.menu a:hover{ 
+  background-color: #2E2E2E;
+text-decoration: none;
+    }
+  }
 /* ============================INTRODUÇÃO===================================== */
 .introducao-bg{ 
   background-color: #000;
@@ -202,41 +234,53 @@ box-shadow: 0  1px 2px rgba(0, 0, 0, 0.1);
     
 
 }
+/* ============================MEDIA-QUERIES-INTRODUÇÃO===================================== */
+
+@media(max-width: 900px) { 
+  .introducao{ grid-template-columns: 1fr;
+  }
+
+  .introducao-conteudo h1{ 
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+
+  .introducao-conteudo p{
+  font-size: 18px;
+
+  }
+
+  .introducao-conteudo{ 
+    padding-bottom: 12px;
+  }
+  
+  .introducao img{ 
+    width:  100%;
+    height:300px;
+  }
+
+  .introducao-bg{
+
+    box-shadow: inset 0 -40px white;
+ background: var(--c11);
+ padding-top: 12px;
+  }
+
+  .introducao-conteudo a { 
+    padding: 0.5rem 1rem;
+  }
+
+
+
+
+
+
+
+
+
+}
+
 
 
 /* 
 ============================FOOTER===================================== */
-
-
-
-/* ============================MEDIA-QUERIES===================================== */
-@media(max-width: 800px){
-.menu a{ 
-background-color: #111;
-padding: 0.5rem 1rem;
-border-radius: 0.2rem; 
-transition: 340ms;
-
-}
-.menu {gap: .6rem;}
-
-.menu a:hover{ 
-  background-color: #2E2E2E;
-text-decoration: none;
-
-}
-.header a:after{ display: none;}
-}
-
-@media(max-width: 600px){
-  .menu{ 
-    gap: .4rem; 
-      }
-.menu a { padding: 0.3rem 0.5rem;
-font-size: 0.9rem;}
-
-.menu a:hover{ 
-  background-color: #2E2E2E;
-text-decoration: none;
-    }
-  }
