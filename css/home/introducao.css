@@ -26,10 +26,7 @@ margin-inline: auto;
 
 .introducao-conteudo h1{ color: var(--white);
   margin-bottom: 32px;
-  font-family:  var( --poppins);
-  font-size: 64px;
-line-height: 1.125;
-}
+ }
 
 .introducao-conteudo h1 .ponto{
    color: var(--a1);
@@ -37,10 +34,7 @@ line-height: 1.125;
 }
 .introducao-conteudo p{ 
   color: var(--c5);
-  font-size: 24px;
-line-height: 1.5;
-margin-bottom: 20px;
-font-family:"Roboto", sans-serif;
+  margin-bottom: 20px;
 }
 
 
@@ -53,19 +47,9 @@ font-family:"Roboto", sans-serif;
 /* ============================MEDIA-QUERIES-INTRODUÇÃO===================================== */
 
 @media(max-width: 900px) { 
+
   .introducao{ grid-template-columns: 1fr;
   }
-
-  .introducao-conteudo h1{ 
-    font-size: 32px;
-    margin-bottom: 12px;
-  }
-
-  .introducao-conteudo p{
-  font-size: 18px;
-
-  }
-
   .introducao-conteudo{ 
     padding-bottom: 12px;
   }

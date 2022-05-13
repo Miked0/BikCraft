@@ -1,0 +1,35 @@
+.bicicletas-lista{
+  padding-block: 40px;
+}
+.bicicletas-lista h2{ 
+  margin-bottom: 20px;
+  max-width: 1200px;
+  padding-block: 20px;
+
+}
+
+
+.bicicletas-lista img{  border-radius: 5px;
+  max-width: 100%;
+  margin-bottom: ;
+}
+.bicicletas-lista-items{ 
+    display: flex;
+    gap: 3rem;
+   }
+   .bicicletas-lista-items{ max-width: 1400px;}
+   .bicicletas-lista-items h3 {
+   display: flex;  
+   
+  }
+  .bicicletas-lista-items li h3::before{ 
+    content: "";
+    align-items: center ;
+  background-color: var(--a2);
+width: 12px;
+height: 8px;
+display: inline-block;
+
+}  
+
+

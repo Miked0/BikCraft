@@ -40,17 +40,7 @@ linear-gradient(#FFBB00, #A66F00);
 
 --roboto: font-family: 'Roboto';
   
-  --font-1-xxl: var(--poppins);
-  --font-1-xl: var(--poppins);
-  --font-1-l:  var(--poppins);
-  --font-2-l: var(--roboto);
-  --font-2-l-b: var(--roboto);
-  --font-1-m-b:  var(--poppins);
-  --font-2-m: var(--poppins);
-  --font-1-s:  var(--poppins);
-  --font-2-s: var(--roboto); 
-  --font-2-xs:  var(--roboto);
-  --font-1-xs:  var(--poppins);
+ 
 
 
 }
@@ -106,3 +96,126 @@ color:  var(--c6);
  .c-p-3{ color: var(--a3);}
  .c-p-4{ color: var(--a4);}
  .c-p-5{ color: var(--a5);}
+
+
+ /* ===================================================================
+ =============================/FONTES/===========================
+ ================================================================
+ */
+
+
+
+ .font-1-xxl{
+  font-family:  var( --poppins);
+  font-size: 4rem;
+line-height: 1.125;
+ }
+
+ .font-1-xl{
+  font-family:  var( --poppins);
+   font-size: 1.5rem;
+  line-height: 125%;
+ }
+
+
+ .font-1-l{
+  font-family:  var( --poppins);
+  font-size: 1.5rem;
+  line-height:150%;
+ }
+
+
+ .font-2-l{
+  font-family:  var( --roboto);
+  font-size: 1.5rem;
+  line-height: 150%;
+ }
+
+
+ .font-2-l-b{
+  font-family:  var( --roboto);
+  font-weight: 500;
+font-size: 1.5rem;
+line-height: 150%;
+letter-spacing: 0.015em;
+ }
+
+ .font-1-m{
+  font-family:  var( --poppins);
+    font-size: 1.1rem;
+  line-height: 133%;
+  
+ }
+
+ .font-1-m-b{
+  font-family:  var( --poppins);
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 133%;
+ }
+ 
+
+
+ .font-2-m{
+  font-family:  var( --roboto);
+  font-size: 1.1rem;
+  line-height: 133%;
+ }
+ 
+ 
+ .font-1-s{
+  font-family:  var( --poppins);
+  font-size: 1rem;
+  line-height: 150%;
+ }
+ 
+ 
+ .font-2-s{
+  font-family:  var( --roboto);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+ } 
+ 
+ 
+ .font-2-xs{
+  font-family:  var( --roboto);
+  font-size: 0.8rem;
+  line-height:143%;
+ };
+ 
+ 
+ .font-1-xs{
+  font-family:  var( --poppins);
+  font-weight: 600;
+  font-size: 0.6rem;
+  line-height:133%;
+}
+
+
+
+@media(max-width: 900px) { 
+  
+ .font-1-xl{ 
+    font-size: 3rem;
+  }
+  
+  .font-2-l{
+    font-size: 1.125rem;
+   
+  }
+}
+
+
+@media(max-width: 800px) { 
+  
+  .font-1-xl{ 
+     font-size: 2rem;
+   }}
+
+
+   
+   .ponto{
+    color: var(--a1);
+    font-family: "Roboto";}
+    
