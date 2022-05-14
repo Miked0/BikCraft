@@ -19,3 +19,37 @@ box-shadow: 0  1px 2px rgba(0, 0, 0, 0.1);
 .bttn:hover { 
   background: var(--gradiente-hover);
 }
+
+
+
+.container{   max-width: 1200px;
+  padding-inline: 20px;
+box-sizing: border-box;  
+margin: 0 auto;}
+
+
+
+.link { color: var(--a1);
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 133%;
+transition:  .3s;
+}
+
+.link::after { content: "";
+  display: block;
+width: 46%;
+height: 4px;
+background-color: var(--a1);
+transition: .3s;
+}
+
+.link:hover{
+  color: var(--white);
+
+}
+
+.link:hover::after{
+ background-color: currentColor;
+}

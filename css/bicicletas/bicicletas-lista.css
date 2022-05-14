@@ -1,18 +1,17 @@
-.bicicletas-lista { padding-block: 60px; }
+.bicicletas-lista { padding-block: 60px;
+padding-bottom: 120px; }
 
 .bicicletas-lista ul { display: flex;
   gap: 40px;
   padding-inline: 20px;
 max-width: 1400px;
-margin: 0 auto;
+
 overflow-x: auto;
 }
 
 .bicicletas-lista h2 { 
-  max-width: 1200px;
-  padding-inline: 20px;
-margin-bottom: 40px;
-box-sizing: border-box;  
+  margin-bottom: 40px;
+
 }
 
 

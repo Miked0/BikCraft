@@ -10,10 +10,8 @@ align-items: center;
 flex-wrap: wrap;
 
 gap: 1.2rem;
-
 padding: 1.2rem;
-max-width: 75rem;
-margin: 0 auto;
+
 }
 
 .menu {
