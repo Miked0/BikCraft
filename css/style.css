@@ -1,27 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+@import "./global/global.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
 
-@import "/css/globals/globals.css";
+@import "./global/header.css";
+@import "./global/footer.css";
 
-@import "/css/componentes/bttn.css";
-@import "/css/componentes/colors.css";
+/* Utilidades */
+@import "./utilidades/componentes.css";
 
-@import "/css/globals/header.css";
-@import "/css/globals/footer.css";
+/* Home */
+@import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
 
+/* Bicicletas */
+@import "./bicicletas/bicicletas-lista.css";
+@import "./bicicletas/bicicletas.css";
 
+/* Seguros */
+@import "./seguros/seguros.css";
 
-@import "/css/home/introducao.css";
-@import "/css/home/parceiros.css";
-@import "/css/home/depoimento.css";
-
-@import "/css/bicicletas/bicicletas-lista.css";
-@import "/css/bicicletas/bicicletas.css";
-
-@import "/css/tecnologias/tecnologias.css";
-
-
-@import "/css/seguros/seguros.css";
-
-
-@import "/css/termos/termos.css"
+/* Termos */
+@import "./termos/termos.css";
