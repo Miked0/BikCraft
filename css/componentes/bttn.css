@@ -29,6 +29,24 @@ max-width: max-content;
   background: var(--c9);
 }
 
+.bttn.seta{
+  display: flex;
+  align-items: center;
+}
+.bttn.seta::after{
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url(../../img/icones/seta.svg); 
+transition: transform .2s;
+}
+
+.bttn.seta:hover::after{
+  transform: translateX(4px);
+}
+
 .container{   max-width: 1200px;
   padding-inline: 20px;
 box-sizing: border-box;  
