@@ -67,7 +67,7 @@ transition:  .2s;
 
 .link::after { content: "";
   display: block;
-width: 60%;
+width: 46%;
 height: 4px;
 background-color: var(--a1);
 transition: .2s;
