@@ -62,15 +62,15 @@ margin: 0 auto;}
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 133%;
-transition:  .3s;
+transition:  .2s;
 }
 
 .link::after { content: "";
   display: block;
-width: 46%;
+width: 60%;
 height: 4px;
 background-color: var(--a1);
-transition: .3s;
+transition: .2s;
 }
 
 .link:hover{
