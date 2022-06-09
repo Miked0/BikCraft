@@ -73,14 +73,12 @@ background-color: var(--a1);
 transition: .2s;
 }
 
+.link:hover::after,
 .link:hover{
   color: var(--white);
 
 }
 
-.link:hover::after{
- background-color: currentColor;
-}
 
 .ponto   {color: var(--a1);
 font-family: "Roboto";
