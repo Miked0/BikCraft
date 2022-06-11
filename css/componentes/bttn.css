@@ -62,7 +62,7 @@ margin: 0 auto;}
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 133%;
-transition:  .3s;
+transition:  .2s;
 }
 
 .link::after { content: "";
@@ -70,17 +70,15 @@ transition:  .3s;
 width: 46%;
 height: 4px;
 background-color: var(--a1);
-transition: .3s;
+transition: .2s;
 }
 
+.link:hover::after,
 .link:hover{
   color: var(--white);
 
 }
 
-.link:hover::after{
- background-color: currentColor;
-}
 
 .ponto   {color: var(--a1);
 font-family: "Roboto";
