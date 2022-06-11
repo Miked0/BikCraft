@@ -30,8 +30,10 @@
 @import "/css/seguros/vantagens.css";
 @import "/css/seguros/perguntas.css";
 
+@import "/css/orcamento/orcamento.css";
+
 @import "/css/contato/contato.css";
 @import "/css/contato/lojas.css";
-
+@import "/css/contato/orcamento.css";
 
 @import "/css/termos/termos.css";
