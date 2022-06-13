@@ -73,7 +73,7 @@ grid-template-columns: 1fr;
 gap: 20px;
 padding-block: 40px;
   }
-  .bicicletas-bg{background-color: var(--c11);}
+  .bicicletas-bg{background: var(--c11);}
 }
 
 @media(max-width: 600px){
